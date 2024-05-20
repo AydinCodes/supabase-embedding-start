@@ -7,7 +7,13 @@ declare global {
 			name: string;
 			price: number;
 		}
-		// interface Locals {}
+		interface DatabaseProduct {
+			id: number;
+			sku: string;
+			name: string;
+			price: number;
+			similarity: number;
+		}
 		// interface PageData {}
 		// interface PageState {}
 		// interface Platform {}
